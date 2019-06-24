@@ -1,0 +1,26 @@
+package br.com.starwar.model;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Starship {
+
+	private String name;
+    private String model; 
+    private String manufacturer;
+    private BigDecimal costInCredits; 
+    private Double length; 
+    private Double maxAtmospheringSpeed;
+    private Double crew; 
+    private Long passengers;
+    private Long cargoCapacity; 
+    private Integer consumables; 
+    private Double hyperdriveRating; 
+    private Integer mglt;
+    private String starshipClass; 
+    private List<People> pilots; 
+    private List<Film> films;
+}

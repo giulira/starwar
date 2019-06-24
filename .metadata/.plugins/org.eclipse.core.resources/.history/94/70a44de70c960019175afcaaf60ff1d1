@@ -1,0 +1,12 @@
+package br.com.starwar.repository;
+
+import org.springframework.stereotype.Repository;
+
+import org.springframework.data.repository.CrudRepository;
+import br.com.starwar.model.Planet;
+
+@Repository
+public class StarwarRepository extends CrudRepository<Planet, Long>{
+	
+
+}

@@ -1,0 +1,23 @@
+package br.com.starwar.model;
+
+import java.util.List;
+
+public class People{
+	private String name;
+	private Long height;
+	private Long mass;
+	private String hair_color;
+	private String skin_color;
+	private String eye_color;
+	private String birth_year;
+	private String gender;
+	private String homeworld;
+    private List<Film> films;
+    private List<Specie> species; 
+    private List<Vehicle> vehicles;
+    private List<Starship> starships;
+    
+	
+
+
+}

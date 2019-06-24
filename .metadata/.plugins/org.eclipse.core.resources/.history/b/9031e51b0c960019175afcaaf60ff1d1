@@ -1,0 +1,9 @@
+package br.com.starwar.repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class StarwarRepository CrudRepository<Student, Long>, JpaRepository<Student, Long>{
+	
+
+}

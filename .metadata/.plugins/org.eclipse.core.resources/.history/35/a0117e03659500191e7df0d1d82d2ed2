@@ -1,0 +1,23 @@
+package br.com.starwar.model;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+
+@Entity
+public class People extends AbstractEntity {
+	private String name;
+	private Long height;
+	private Long mass;
+	private String hairColor;
+	private String skinColor;
+	private String eyeColor;
+	private String birthYear;
+	private String gender;
+	private String homeworld;
+	private List<Film> listaFilms;
+	private List<Specie> listaSpecies;
+	private List<Vehicle> listaVehicles;
+	private List<Starship> listaStarShip;
+	
+}

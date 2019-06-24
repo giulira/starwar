@@ -1,0 +1,22 @@
+package br.com.starwar.model;
+
+public class Specie {
+
+	  private String name; 
+	  private String classification; 
+	  private String designation; 
+	  private Long averageHeight; 
+	  private String skinColors; 
+	  private String hairColors; 
+	  private String eyeColors; 
+	  private Long averageLifespan; 
+	  private Planet homeworld; 
+	    "language": "Kaminoan", 
+	    "people": [
+	        "https://swapi.co/api/people/72/", 
+	        "https://swapi.co/api/people/73/"
+	    ], 
+	    "films": [
+	        "https://swapi.co/api/films/5/"
+	    ]
+}

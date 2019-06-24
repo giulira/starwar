@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;devdojo-springboot&apos; to &apos;starwar&apos;&#x0D;&#x0A;- Original element: &apos;devdojo-springboot&apos;&#x0D;&#x0A;- Renamed element: &apos;devdojo-springboot&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;devdojo-springboot&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=devdojo-springboot" name="starwar" references="true" stamp="1560816925070" version="1.0"/>
+</session>

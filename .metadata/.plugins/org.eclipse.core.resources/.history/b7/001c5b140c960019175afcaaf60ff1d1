@@ -1,0 +1,6 @@
+package br.com.starwar.repository;
+
+public class StarwarRepository CrudRepository<Student, Long>, JpaRepository<Student, Long>{
+	
+
+}

@@ -1,0 +1,5 @@
+package br.com.starwar.repository;
+
+public class StarwarRepository {
+
+}

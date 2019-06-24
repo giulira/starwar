@@ -1,0 +1,8 @@
+package br.com.starwar.model;
+
+public class ListaPlanetas {
+
+	private Long count;
+	private String next ;
+	private List results;
+}

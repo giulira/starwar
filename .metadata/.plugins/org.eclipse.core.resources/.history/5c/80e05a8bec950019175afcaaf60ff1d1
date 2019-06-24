@@ -1,0 +1,71 @@
+package br.com.starwar.model;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.Entity;
+@Entity
+public class Film extends AbstractEntity {
+
+	private String title;
+	private Long episodeId;
+	private String openingCrawl;
+	private String director;
+	private String producer;
+	private Date releaseDate;
+
+	/*
+	 * private List<People> characters; private List<Planet> planets; private
+	 * List<Starship> starships; private List<Vehicle> vehicles; private
+	 * List<Specie> species;
+	 */
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public Long getEpisodeId() {
+		return episodeId;
+	}
+	public void setEpisodeId(Long episodeId) {
+		this.episodeId = episodeId;
+	}
+	public String getOpeningCrawl() {
+		return openingCrawl;
+	}
+	public void setOpeningCrawl(String openingCrawl) {
+		this.openingCrawl = openingCrawl;
+	}
+	public String getDirector() {
+		return director;
+	}
+	public void setDirector(String director) {
+		this.director = director;
+	}
+	public String getProducer() {
+		return producer;
+	}
+	public void setProducer(String producer) {
+		this.producer = producer;
+	}
+	public Date getReleaseDate() {
+		return releaseDate;
+	}
+	public void setReleaseDate(Date release_date) {
+		this.releaseDate = releaseDate;
+	}
+	/*
+	 * public List<People> getCharacters() { return characters; } public void
+	 * setCharacters(List<People> characters) { this.characters = characters; }
+	 * public List<Planet> getPlanets() { return planets; } public void
+	 * setPlanets(List<Planet> planets) { this.planets = planets; } public
+	 * List<Starship> getStarships() { return starships; } public void
+	 * setStarships(List<Starship> starships) { this.starships = starships; } public
+	 * List<Vehicle> getVehicles() { return vehicles; } public void
+	 * setVehicles(List<Vehicle> vehicles) { this.vehicles = vehicles; } public
+	 * List<Specie> getSpecies() { return species; } public void
+	 * setSpecies(List<Specie> species) { this.species = species; }
+	 */
+	
+}

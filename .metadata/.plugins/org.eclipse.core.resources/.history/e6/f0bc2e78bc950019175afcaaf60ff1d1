@@ -1,0 +1,23 @@
+package br.com.starwar.endpoint;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.starwar.model.People;
+import br.com.starwar.util.DateUtil;
+
+@RestController
+@RequestMapping("student")
+public class StarWarEndpoint {
+	
+	@RequestMapping(method=RequestMethod.GET, path="/list")
+	public List<People> listAll(){
+		List<People> lista = new ArrayList<People>();
+		return lista;
+	}
+}

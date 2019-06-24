@@ -1,0 +1,102 @@
+package br.com.starwar.model;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Vehicle {
+
+	private String name;
+	private String model;
+    private String manufacturer; 
+    private Double cost_in_credits;
+    private Double length;
+    private Long maxAtmospheringSpeed; 
+    private Long crew;
+    private Long passengers; 
+    private Long cargoCapacity; 
+    private String consumables;
+    private String vehicleClass;
+    private List<People> pilots; 
+    private List<Film> films;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public String getManufacturer() {
+		return manufacturer;
+	}
+	public void setManufacturer(String manufacturer) {
+		this.manufacturer = manufacturer;
+	}
+	public Double getCost_in_credits() {
+		return cost_in_credits;
+	}
+	public void setCost_in_credits(Double cost_in_credits) {
+		this.cost_in_credits = cost_in_credits;
+	}
+	public Double getLength() {
+		return length;
+	}
+	public void setLength(Double length) {
+		this.length = length;
+	}
+	public Long getMaxAtmospheringSpeed() {
+		return maxAtmospheringSpeed;
+	}
+	public void setMaxAtmospheringSpeed(Long maxAtmospheringSpeed) {
+		this.maxAtmospheringSpeed = maxAtmospheringSpeed;
+	}
+	public Long getCrew() {
+		return crew;
+	}
+	public void setCrew(Long crew) {
+		this.crew = crew;
+	}
+	public Long getPassengers() {
+		return passengers;
+	}
+	public void setPassengers(Long passengers) {
+		this.passengers = passengers;
+	}
+	public Long getCargoCapacity() {
+		return cargoCapacity;
+	}
+	public void setCargoCapacity(Long cargoCapacity) {
+		this.cargoCapacity = cargoCapacity;
+	}
+	public String getConsumables() {
+		return consumables;
+	}
+	public void setConsumables(String consumables) {
+		this.consumables = consumables;
+	}
+	public String getVehicleClass() {
+		return vehicleClass;
+	}
+	public void setVehicleClass(String vehicleClass) {
+		this.vehicleClass = vehicleClass;
+	}
+	public List<People> getPilots() {
+		return pilots;
+	}
+	public void setPilots(List<People> pilots) {
+		this.pilots = pilots;
+	}
+	public List<Film> getFilms() {
+		return films;
+	}
+	public void setFilms(List<Film> films) {
+		this.films = films;
+	}
+    
+}

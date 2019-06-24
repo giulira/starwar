@@ -1,0 +1,5 @@
+package br.com.starwar.model;
+
+public class Planets {
+
+}

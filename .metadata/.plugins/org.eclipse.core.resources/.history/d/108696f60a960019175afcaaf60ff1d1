@@ -1,0 +1,8 @@
+package br.com.starwar.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Planet extends AbstractEntity{
+
+}

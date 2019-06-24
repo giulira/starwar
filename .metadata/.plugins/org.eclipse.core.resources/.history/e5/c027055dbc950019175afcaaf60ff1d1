@@ -1,0 +1,11 @@
+package br.com.starwar.controller;
+
+public class PlanetaController {
+
+	private PlanetaClient planetaClient;
+
+	public PlanetaController() {
+	}
+	
+	
+}

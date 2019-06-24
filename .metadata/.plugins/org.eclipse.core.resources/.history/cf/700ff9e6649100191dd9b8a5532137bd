@@ -1,0 +1,28 @@
+package br.com.starwar.model;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Planeta extends AbstractEntity {
+	private String name;
+	private String model;
+	private String manufacturer;
+	private long cost_in_credits;
+	private long length;
+	private long max_atmosphering_speed;
+	private long crew;
+	private int passengers;
+	private long cargo_capacity;
+	private String consumables;
+	private double hyperdrive_rating;
+	private int mglt;
+	private String starship_class;
+	private List<String> pilots;
+	private List<String> films;
+	private Date created;
+	
+	
+}

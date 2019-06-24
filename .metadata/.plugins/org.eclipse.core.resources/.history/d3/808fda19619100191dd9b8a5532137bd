@@ -1,0 +1,6 @@
+package br.com.starwar.model;
+
+
+public class Planeta {
+
+}

@@ -1,0 +1,15 @@
+package br.com.starwar.model;
+
+import java.util.Date;
+import java.util.List;
+
+public class Film {
+
+	private String title;
+	private Long episodeId;
+	private String openingCrawl;
+	private String director;
+	private String producer;
+	private Date release_date;
+	private List<People> characters;
+}

@@ -1,0 +1,12 @@
+package br.com.starwar.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Planeta extends AbstractEntity {
+	private String nome;
+	private String clima;
+	private String terreno;
+	
+
+}

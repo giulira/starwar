@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.EnableAutoConfiguration"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.springframework.format.annotation.DateTimeFormat"/>
+<fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+<fullyQualifiedTypeName name="br.com.devdojo.awesome.util.DateUtil"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.awt.PageAttributes.MediaType"/>
+<fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
+<fullyQualifiedTypeName name="br.com.starwar.model.Film"/>
+<fullyQualifiedTypeName name="br.com.starwar.model.Planet"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+</qualifiedTypeNameHistroy>

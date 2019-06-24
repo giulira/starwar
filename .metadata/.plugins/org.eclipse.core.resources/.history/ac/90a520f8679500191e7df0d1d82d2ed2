@@ -1,0 +1,18 @@
+package br.com.starwar.model;
+
+public class Vehicle {
+
+	private String name;
+	private String model;
+    private String manufacturer; 
+    private Double cost_in_credits;
+    private Double length;
+    private Long maxAtmospheringSpeed; 
+    private Long crew;
+    private Long passengers; 
+    private Long cargoCapacity; 
+    private String consumables;
+    private String vehicleClass;
+    private List<People> pilots; 
+    private List<Film> films;
+}

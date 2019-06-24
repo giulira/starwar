@@ -1,0 +1,31 @@
+package br.com.starwar.model;
+
+import java.util.List;
+
+import com.google.gson.internal.LinkedTreeMap;
+
+public class ListaPlanetas {
+
+	private Long count;
+	private String next ;
+	private List<LinkedTreeMap> results;
+	public Long getCount() {
+		return count;
+	}
+	public void setCount(Long count) {
+		this.count = count;
+	}
+	public String getNext() {
+		return next;
+	}
+	public void setNext(String next) {
+		this.next = next;
+	}
+	public List<LinkedTreeMap> getResults() {
+		return results;
+	}
+	public void setResults(List<LinkedTreeMap> results) {
+		this.results = results;
+	}
+	
+}

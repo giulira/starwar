@@ -1,0 +1,95 @@
+package br.com.starwar.model;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Specie {
+
+	  private String name; 
+	  private String classification; 
+	  private String designation; 
+	  private Long averageHeight; 
+	  private String skinColors; 
+	  private String hairColors; 
+	  private String eyeColors; 
+	  private Long averageLifespan; 
+	  private Planet homeworld; 
+	  private String language; 
+	  private List<People> people;
+	  private List<Film> films;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getClassification() {
+		return classification;
+	}
+	public void setClassification(String classification) {
+		this.classification = classification;
+	}
+	public String getDesignation() {
+		return designation;
+	}
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+	public Long getAverageHeight() {
+		return averageHeight;
+	}
+	public void setAverageHeight(Long averageHeight) {
+		this.averageHeight = averageHeight;
+	}
+	public String getSkinColors() {
+		return skinColors;
+	}
+	public void setSkinColors(String skinColors) {
+		this.skinColors = skinColors;
+	}
+	public String getHairColors() {
+		return hairColors;
+	}
+	public void setHairColors(String hairColors) {
+		this.hairColors = hairColors;
+	}
+	public String getEyeColors() {
+		return eyeColors;
+	}
+	public void setEyeColors(String eyeColors) {
+		this.eyeColors = eyeColors;
+	}
+	public Long getAverageLifespan() {
+		return averageLifespan;
+	}
+	public void setAverageLifespan(Long averageLifespan) {
+		this.averageLifespan = averageLifespan;
+	}
+	public Planet getHomeworld() {
+		return homeworld;
+	}
+	public void setHomeworld(Planet homeworld) {
+		this.homeworld = homeworld;
+	}
+	public String getLanguage() {
+		return language;
+	}
+	public void setLanguage(String language) {
+		this.language = language;
+	}
+	public List<People> getPeople() {
+		return people;
+	}
+	public void setPeople(List<People> people) {
+		this.people = people;
+	}
+	public List<Film> getFilms() {
+		return films;
+	}
+	public void setFilms(List<Film> films) {
+		this.films = films;
+	}
+
+}

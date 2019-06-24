@@ -1,0 +1,139 @@
+package br.com.starwar.javaclient;
+
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.RestTemplate;
+
+import com.google.gson.Gson;
+import com.google.gson.internal.LinkedTreeMap;
+
+import br.com.starwar.model.ListaPlanetas;
+import br.com.starwar.model.Planet;
+
+public class JavaSpringClientTest {
+
+	public static void main(String[] args) throws URISyntaxException {
+		JavaSpringClientTest test = new JavaSpringClientTest();
+	//	Planet planet = test.buscarPlaneta();
+		test.listarPlaneta();
+		
+		/*People people = test.buscarPeople();
+		
+		if(people != null) {
+			
+		}*/
+		//Film film = test.buscarFilms();
+	}
+	
+	
+/*	private void listarPlaneta() throws URISyntaxException {
+		String baseUrl = "https://swapi.co/api/planets/";
+	    URI uri = new URI(baseUrl);
+	    Gson gson = new Gson();
+	    
+		 RestTemplate restTemplate = new RestTemplate();
+		 HttpHeaders headers = new HttpHeaders();
+         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
+         headers.add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36");
+		
+         HttpEntity<String> entity = new HttpEntity<String>("parameters", headers);
+
+         ResponseEntity<String> response = restTemplate.exchange(baseUrl, HttpMethod.GET,entity,String.class);
+         String json = response.getBody();
+         System.out.println(json);
+         ListaPlanetas lista = gson.fromJson(json, ListaPlanetas.class);
+         List<LinkedTreeMap> parseLista = lista.getResults();
+         
+         for(int i=0; i<parseLista.size(); i++) {
+        	 StringBuilder str = new StringBuilder();
+
+        	 str.append("name= "+ parseLista.get(i).get("name")+" ");
+        	 str.append("rotation_period= "+parseLista.get(i).get("rotation_period")+" ");
+        	 str.append("orbital_period= "+parseLista.get(i).get("orbital_period")+" ");
+        	 str.append("diameter= "+parseLista.get(i).get("diameter")+" ");
+        	 str.append("climate= "+parseLista.get(i).get("climate")+" ");
+        	 str.append("gravity= "+parseLista.get(i).get("gravity")+" ");
+        	 str.append("terrain= "+parseLista.get(i).get("terrain")+" ");
+        	 str.append("surface_water= "+parseLista.get(i).get("surface_water")+" ");
+        	 str.append("population= "+parseLista.get(i).get("population")+" ");
+        	 
+        	 System.out.println(str.toString());
+         }
+         
+         
+
+         	
+        		 
+	}
+	
+	private Planet buscarPlaneta() throws URISyntaxException {
+		String baseUrl = "https://swapi.co/api/planets/1/";
+	    URI uri = new URI(baseUrl);
+	    Gson gson = new Gson();
+	    
+		 RestTemplate restTemplate = new RestTemplate();
+		 HttpHeaders headers = new HttpHeaders();
+         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
+         headers.add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36");
+		
+         HttpEntity<String> entity = new HttpEntity<String>("parameters", headers);
+
+         ResponseEntity<String> response = restTemplate.exchange(baseUrl, HttpMethod.GET,entity,String.class);
+
+         String json = response.getBody();
+         System.out.println(json);
+         Planet planet = gson.fromJson(json, Planet.class);
+         return planet;
+	}
+	*/
+/*	private People buscarPeople() throws URISyntaxException {
+		String baseUrl = "https://swapi.co/api/people/1";
+	    URI uri = new URI(baseUrl);
+	    Gson gson = new Gson();
+	    
+		 RestTemplate restTemplate = new RestTemplate();
+		 HttpHeaders headers = new HttpHeaders();
+         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
+         headers.add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36");
+		
+         HttpEntity<String> entity = new HttpEntity<String>("parameters", headers);
+
+         ResponseEntity<String> response = restTemplate.exchange(baseUrl, HttpMethod.GET,entity,String.class);
+
+         String json = response.getBody();
+         System.out.println(json);
+         People people = gson.fromJson(json, People.class);
+         
+      
+         return people;
+	}
+
+	private Film buscarFilms() throws URISyntaxException {
+		String baseUrl = "https://swapi.co/api/films/2";
+	    URI uri = new URI(baseUrl);
+	    Gson gson = new Gson();
+	    
+		 RestTemplate restTemplate = new RestTemplate();
+		 HttpHeaders headers = new HttpHeaders();
+         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
+         headers.add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36");
+		
+         HttpEntity<String> entity = new HttpEntity<String>("parameters", headers);
+
+         ResponseEntity<String> response = restTemplate.exchange(baseUrl, HttpMethod.GET,entity,String.class);
+
+         String json = response.getBody();
+         System.out.println(json);
+         Film film = gson.fromJson(json, Film.class);
+         
+         return film;
+	}*/
+}

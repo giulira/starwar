@@ -1,0 +1,5 @@
+package br.com.starwar.controller;
+
+public class PlanetaClient {
+
+}

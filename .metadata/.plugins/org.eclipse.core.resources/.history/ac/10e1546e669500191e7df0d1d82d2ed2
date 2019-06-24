@@ -1,0 +1,21 @@
+package br.com.starwar.model;
+
+import java.util.List;
+
+public class Planet {
+
+	
+	private String name;
+	private Long rotationPeriod;
+	private Long orbitalPeriod;
+	private Double diameter ;
+	private String climate;
+	private String gravity;
+	private String terrain;
+	private Long surfaceWater;
+	private Double population;
+	private List<People> residents;
+	private List<Film> films;
+	
+	
+}
